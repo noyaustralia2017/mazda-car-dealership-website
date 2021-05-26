@@ -1,0 +1,344 @@
+	/* Site styling code. */
+html {
+  
+  font-family: 'Montserrat';
+ 
+  justify-items: center;
+  --bg: #FCFCFC;
+  --bg-panel: #EBEBEB;
+  --color-headings: #0077FF;
+  --color-text: #333333;
+}
+
+html[data-theme='dark'] {
+  --bg: #333333;
+  --bg-panel: #434343;
+  --color-headings: #3694FF;
+  --color-text: #B5B5B5;
+}
+
+body {
+  background-color: var(--bg);
+}
+.big {
+  color: #903;
+  float: left;
+  font-size: 75px;
+  line-height: 60px;
+  padding-top: 4px;
+  padding-right: 8px;
+  padding-left: 3px;
+}
+
+
+	/* This is the code for the night mode tool. We made it into a container so the whole page wasn't affected and only that container was */
+.container {
+  background-color: var(--bg-panel);
+  margin: 5em;
+  padding: 5em;
+  border-radius: 15px;
+  display: grid;
+  grid-template-columns: 80% auto;
+  grid-template-rows: auto auto;
+  grid-template-areas: "title switch" "content content";
+}
+.container h1 {
+  margin: 0;
+  color: var(--color-headings);
+}
+.container p {
+  color: var(--color-text);
+  grid-area: content;
+  font-size: 1.1em;
+  line-height: 1.8em;
+  margin-top: 2em;
+}
+
+input[type=checkbox] {
+  height: 0;
+  width: 0;
+  visibility: hidden;
+}
+
+label {
+  cursor: pointer;
+  text-indent: -9999px;
+  width: 52px;
+  height: 27px;
+  background: grey;
+  float: right;
+  border-radius: 100px;
+  position: relative;
+}
+
+label:after {
+  content: '';
+  position: absolute;
+  top: 3px;
+  left: 3px;
+  width: 20px;
+  height: 20px;
+  background: #fff;
+  border-radius: 90px;
+  transition: 0.3s;
+}
+
+input:checked + label {
+  background: var(--color-headings);
+}
+
+input:checked + label:after {
+  left: calc(100% - 5px);
+  transform: translateX(-100%);
+}
+
+label:active:after {
+  width: 45px;
+}
+
+html.transition,
+html.transition *,
+html.transition *:before,
+html.transition *:after {
+  transition: all 750ms !important;
+  transition-delay: 0 !important;
+}
+	/*  Text & Container Styling*/
+.mainpoint{
+  color: #002D72;
+  font-size:300%;
+}
+
+.mainpoint1{
+  color: #002D72;
+  font-size:300%;
+}
+
+.mainpoint2{
+  color: 	#DC143C;
+  font-size:270%;
+}
+
+.mainpoint3{
+  color: 	black;
+  font-size:140%;
+}
+
+
+.lifefont {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 170%;
+	 text-align: center;
+color: black; }
+
+.lifefont2 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 170%;
+	 text-align: center;
+color: black; }
+
+.container4 {
+  width: 100%;
+  padding: 10%;
+  padding-top: 0.1%;
+  background-color:	#FFA07A;  
+  opacity: 1;	
+ 
+  }
+  .container6 {
+  width: 100%;
+  padding: 0%;
+  padding-top: 0.1%;
+  background-color:	#aa89ed;  
+  opacity: 1;	
+ 
+  }
+  
+  .container5 {
+  width: 100%;
+  padding: 1%;
+  padding-top: 0.1%;
+  background-color:	#FFA07A;  
+  opacity: 1;	
+ 
+  }
+  
+  #results{
+	  color: #B5B5B5;
+  font-size:120%
+} /* This code is styling that results. When the result of Rock Paper Scissors is in, it makes the colour of it grey and at a size of 120%. */
+
+  	/* Visit our sites website styling. This practically says that whenever we hover the image scale will change and thus create a hover effect where text of the company name will appear on that. This is the hover effect code. This is talking about how it will afect the image, its position and text. */
+  .hovereffect {
+width:100%;
+height:100%;
+float:left;
+overflow:hidden;
+position:relative;
+text-align:center;
+cursor:default;
+} 
+
+.hovereffect .overlay {
+width:100%;
+height:100%;
+position:absolute;
+overflow:hidden;
+top:0;
+left:0;
+opacity:0;
+background-color:rgba(0,0,0,0.5);
+-webkit-transition:all .4s ease-in-out;
+transition:all .4s ease-in-out
+}
+
+.hovereffect img {
+display:block;
+position:relative;
+-webkit-transition:all .4s linear;
+transition:all .4s linear;
+}
+
+.hovereffect h2 {
+text-transform:uppercase;
+color:#fff;
+text-align:center;
+position:relative;
+font-size:17px;
+background:rgba(0,0,0,0.6);
+-webkit-transform:translatey(-100px);
+-ms-transform:translatey(-100px);
+transform:translatey(-100px);
+-webkit-transition:all .2s ease-in-out;
+transition:all .2s ease-in-out;
+padding:10px;
+}
+
+.hovereffect a.info {
+text-decoration:none;
+display:inline-block;
+text-transform:uppercase;
+color:#fff;
+border:1px solid #fff;
+background-color:transparent;
+opacity:0;
+filter:alpha(opacity=0);
+-webkit-transition:all .2s ease-in-out;
+transition:all .2s ease-in-out;
+margin:50px 0 0;
+padding:7px 14px;
+}
+
+.hovereffect a.info:hover {
+box-shadow:0 0 5px #fff;
+} /* This code is saying that when we hover of the card, there will be a box shadow, so it goes dark. */
+
+.hovereffect:hover img {
+-ms-transform:scale(1.2);
+-webkit-transform:scale(1.2);
+transform:scale(1.2);
+} /* This code is talking about the image affect. It is saying that it scales the images when hovered upon. In lay words, it zooms in on the picture. */
+
+.hovereffect:hover .overlay {
+opacity:1;
+filter:alpha(opacity=100);
+}
+
+.hovereffect:hover h2,.hovereffect:hover a.info {
+opacity:1;
+filter:alpha(opacity=100);
+-ms-transform:translatey(0);
+-webkit-transform:translatey(0);
+transform:translatey(0);
+} /* This code is saying there is a small delay for the "text" to come up when hovered on. */
+
+.hovereffect:hover a.info {
+-webkit-transition-delay:.2s;
+transition-delay:.2s;
+}
+/* Carousel Code about transitions */
+.carousel-inner>.item {
+    -webkit-transition: -webkit-transform 1.2s ease-in-out !important;
+    -o-transition: -o-transform 0.4s ease-in-out !important;
+    transition: transform 0.4s ease-in-out !important;
+}
+
+
+
+	/* Contact Form */
+body {
+  background: #D9B280;
+  font-family: "Roboto", sans-serif;
+}
+
+.containern {
+
+  width: 900px;
+  height: 650px;
+  margin: 5% auto;
+  position: relative;
+}
+.containern .map {
+  width: 45%;
+  float: left;
+}
+.containern .contact-form {
+  width: 53%;
+  margin-left: 2%;
+  float: left;
+}
+.containern .contact-form .title {
+  font-size: 2.5em;
+  font-family: "Roboto", sans-serif;
+  font-weight: 700;
+  color: #242424;
+  margin: 5% 8%;
+}
+.containern .contact-form .subtitle {
+  font-size: 1.2em;
+  font-weight: 400;
+  margin: 0 4% 5% 8%;
+}
+.containern .contact-form input,
+.containern .contact-form textarea {
+  width: 330px;
+  padding: 3%;
+  margin: 2% 8%;
+  color: #242424;
+  border: 1px solid #B7B7B7;
+}
+.containern .contact-form input::placeholder,
+.containern .contact-form textarea::placeholder {
+  color: #242424;
+}
+.containern .contact-form .btn-send {
+  background: #A383C9;
+  width: 180px;
+  height: 60px;
+  color: #FFFFFF;
+  font-weight: 700;
+  margin: 2% 8%;
+  border: none;
+}
+	/* Footer */
+ #foot2 {
+font-family: "proxima-nova", sans-serif;
+  color: 		#000000 !important;
+  -webkit-font-smoothing: antialiased;
+  margin-bottom: 8px;
+font-weight: 600;
+  font-size:120%;
+ }
+ 
+ 
+ #rock:hover{
+  background-color: yellow;
+}
+
+#paper:hover{
+  background-color: #7CFC00;
+}
+
+#scissors:hover{
+  background-color: #CD853F;
+}

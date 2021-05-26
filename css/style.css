@@ -1,0 +1,933 @@
+.header {
+  background-color: rgba(193, 198, 200, 0.8);
+  width: 100%;
+  height: 50px;
+  overflow-y: hidden;
+  display: inline-block;
+  margin: 0;
+  padding: 10px;
+  text-decoration: none;
+  overflow-y: hidden;
+  font-family: "Arial Black", Gadget, sans-serif;
+}
+.navbar-brand {
+	background: url('http://www.sneaker-mission.com/uploads/3/1/2/7/31279819/5617441.png') no-repeat center center;
+}
+
+#logo {    
+  float:left;
+  margin-top: -25%;
+}
+
+#navtext {
+color:#002D72;
+  font-size: 135%;
+  font-weight:bold
+
+}
+#nav {
+  display: inline-block;
+  float: center;
+  text-decoration: none;
+  overflow-y: hidden;
+  font-family: "Arial Black", Gadget, sans-serif;
+  margin-bottom: 20px;
+  margin-top: 0px;
+  margin-left: 20%;
+  
+}
+
+#nav a {
+  display: inline-block;
+  text-decoration: none;
+  color: #002D72;
+  padding: 10px;
+  text-align: center;
+  margin-bottom: 20px;
+  margin-top:  0px;
+}
+
+.nav-item a:hover {
+  background-color: #002D72;
+  color: white;
+}
+
+body {
+  background-repeat: no-repeat;
+  background-size: cover;
+overflow-x:hidden;
+}
+
+
+#title {
+  text-align: center;
+  font-family: "Arial Black", Gadget, sans-serif;
+  color: #002D72;
+  font-size: 15%;
+}
+ul.nav li.dropdown:hover ul.dropdown-menu {
+          display: block;
+      }
+  .dropdown-menu .sub-menu {
+  left: 100%;
+  position: absolute;
+  top: 0;
+  visibility: hidden;
+  margin-top: -1px;
+}
+
+.dropdown-menu li:hover .sub-menu {
+  visibility: visible;
+}
+
+.navbar-nav .active {
+  color:            #F8F8F8;
+  background-color: #00adef;
+}
+* 
+.mySlides {display: none;}
+
+
+/* Slideshow container */
+.slideshow-container {
+max-width: 1000px;
+position: relative;
+margin: auto;
+
+}
+
+/* Caption text */
+.lifetext {
+color: #f2f2f2;
+font-size: 15px;
+padding: 8px 12px;
+position: absolute;
+bottom: 10px;
+width: 100%;
+text-align: center;
+color: green;
+  font-size: 14px;
+}
+
+
+/* Fading animation */
+.fade {
+-webkit-animation-name: fade;
+-webkit-animation-duration: 1.5s;
+animation-name: fade;
+animation-duration: 1.5s;
+}
+
+@-webkit-keyframes fade {
+from {opacity: .4} 
+to {opacity: 1}
+}
+
+@keyframes fade {
+from {opacity: .4} 
+to {opacity: 1}
+}
+
+/* On smaller screens, decrease text size */
+@media only screen and (max-width: 300px) {
+.text {font-size: 11px}
+}
+
+.slidelife{
+width:80%;
+}
+.car {
+font-family: "proxima-nova", sans-serif;
+  color: #282828 !important;
+  -webkit-font-smoothing: antialiased;
+  margin-bottom: 8px;
+font-weight: 600;
+ font-size:210%; }
+.carsmall {
+font-family: "proxima-nova", sans-serif;
+  color: #282828 !important;
+  -webkit-font-smoothing: antialiased;
+  margin-bottom: 8px;
+font-weight: 600;
+ font-size:150%; }
+.carinfo {
+font-family: "proxima-nova", sans-serif;
+  color: #282828 !important;
+  -webkit-font-smoothing: antialiased;
+  margin-bottom: 8px;
+font-weight: 600; 
+  font-size:190%;
+}
+
+
+#footertitle {
+font-family: "proxima-nova", sans-serif;
+  color: #000000 !important;
+  -webkit-font-smoothing: antialiased;
+  margin-bottom: 8px;
+font-weight: 900;
+  font-size:300%;
+ }
+ 
+ 
+ #footertitle1 {
+font-family: "proxima-nova", sans-serif;
+  color: #000000  !important;
+  -webkit-font-smoothing: antialiased;
+  margin-bottom: 8px;
+font-weight: 5000;
+  font-size:100%;
+ }
+ 
+ #credittitle {
+font-family: "proxima-nova", sans-serif;
+  color: #000000 !important;
+  -webkit-font-smoothing: antialiased;
+  margin-bottom: 8px;
+font-weight: 900;
+  font-size:150%;
+ }
+
+.credit {
+font-family: "proxima-nova", sans-serif;
+  color: #FFC72C !important;
+  -webkit-font-smoothing: antialiased;
+  margin-bottom: 8px;
+font-weight: 600; }
+
+
+.mainpoints{
+  color: #282828 ;
+  font-size:200%;
+}
+.mainpoint{
+  color: #002D72;
+  font-size:300%;
+}
+.lifefont {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 185%;
+color: black; }
+    .column2 {
+float: left;
+width: 20.33%;
+padding: 19.5px;
+height: 395px; 
+}
+
+.row1:after {
+content: "";
+display: table;
+clear: both;
+}
+    .blacktext {
+    color:black;
+  }
+  
+}
+
+
+/* Fake image */
+.image{
+width:45%
+}
+
+/* Add a card effect  */
+.card {
+ background-color: white;
+ padding: 20px;
+ margin-top: 20px;
+}
+.row:after {
+content: "";
+display: table;
+clear: both;
+}
+
+.title {
+color:black;
+}
+.indextitle {
+	font-family: "Arial Black", Gadget, sans-serif;
+font-size: 400%
+}
+.indexsub {
+	 font-family: "Comic Sans MS", cursive, sans-serif;
+	 font-size: 350%
+
+}
+.carousel-caption {
+	font-family: "Arial Black", Gadget, sans-serif;
+font-size: 400%
+	
+}
+
+
+.cardfac {
+box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+background-color: rgba(255, 255, 255, 1);
+transition: 0.3s;
+width: 40%;
+}
+
+.cardfac:hover {
+box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+}
+
+.containercard {
+padding: 2px 16px;
+}
+
+#picholder {
+width: 100%;
+padding-right: 25px;
+padding-left: 15px;
+margin-right: auto;
+margin-left: auto;
+opacity: 0.8;	
+
+}
+.bg-primary {
+    background-color: #0083D0!important;
+}
+
+.container1 {
+width: 100%;
+padding-right: 15px;
+padding-left: 15px;
+margin-right: auto;
+padding-bottom:20px;
+margin-left: auto;
+background-color:#0083D0;
+opacity: 1;	
+}
+
+
+.container2 {
+width: 100%;
+padding-right: 15px;
+padding-left: 100px;
+
+padding-bottom:20px;
+margin-left: auto;
+opacity: 1;	
+}
+.container4 {
+  width: 100%;
+  padding: 10%;
+  padding-top: 0.1%;
+  background-color:rgba(170,170,170);  
+  opacity: 1;	
+ 
+  }
+.container9 {
+  width: 100%;
+  padding: 10%;
+  padding-top: 0.1%;
+  background-color:rgba(193, 198, 200, 0.8);  
+  opacity: 1;	
+  }
+#container9 {
+display:none; }
+  
+  .container8 {
+  width: 100%;
+  height: 150%
+  background-color:rgba(193, 198, 200, 0.8);  
+  opacity: 1;	
+ 
+  }
+  
+  .container6 {
+  margin-top: -1%
+  background-color:rgba(193, 198, 200, 0.8);  
+  opacity: 1;	
+ 
+  }
+
+	
+	/* Index Page styling */
+
+.welcome {
+  background: url(../images/wallpaper/3.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-origin: content-box;
+}
+#welcome { 
+  
+  padding-top: 5%;
+  padding-bottom: 40%;
+  padding-left: 5%;
+  padding-right:40%;
+  margin-top: -1%;
+  background-color: rgba(230, 230, 230, 0.8);
+  color: rgb(0,45,114);
+  background-clip: content-box;
+  text-align: center;
+
+} 
+
+#welcome a {
+  color: rgb(0,45,114);
+}
+
+
+
+.partshome {
+  background: url(../images/wallpaper/parts.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-origin: content-box;
+}
+#partshome {
+   
+  padding-top: 5%;
+  padding-bottom: 40%;
+  padding-left: 5%;
+  padding-right:40%;
+  background-color: rgba(230, 230, 230, 0.8);
+  color: rgb(0,45,114);
+  background-clip: content-box;
+  text-align: center;
+
+  
+}
+
+#partshome a {
+  color: rgb(0,45,114);
+}
+
+
+
+.finance {
+  background: url(../images/wallpaper/finance3.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-origin: content-box;
+
+}
+#finance {
+ 
+   
+  padding-top: 5%;
+  padding-bottom: 40%;
+  padding-left: 5%;
+  padding-right:40%;
+  background-color: rgba(230, 230, 230, 0.8);
+  color: rgb(0,45,114);
+  background-clip: content-box;
+  text-align: center;
+  text-decoration: none;
+
+
+}
+#finance a {
+  color: rgb(0,45,114); 
+}
+
+.servicehome {
+  background: url(../images/wallpaper/service.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-origin: content-box;
+
+}
+
+#servicehome {
+ 
+    
+  padding-top: 5%;
+  padding-bottom: 40%;
+  padding-left: 5%;
+  padding-right:40%;
+  background-color: rgba(230, 230, 230, 0.8);
+  color: rgb(0,45,114);
+  background-clip: content-box;
+  text-align: center;
+  text-decoration: none;
+
+
+}
+#servicehome a {
+  color: rgb(0,45,114); 
+}
+
+
+
+
+		/* Scroll bar for vertical nav bar */
+		
+		::-webkit-scrollbar {
+      width: 20px;
+      color: rgb(193, 198, 200);
+		}
+		
+		::-webkit-scrollbar-track {
+			box-shadow: inset 0 0 5px rgba(193, 198, 200, 0.8); 
+		}
+		
+		::-webkit-scrollbar-thumb {
+			background: rgba(193, 198, 200, 0.8); 
+			opacity: 1;
+		}
+
+
+		::-webkit-scrollbar-thumb:hover {
+			background: grey;
+    }
+
+
+/**********************************
+Responsive navbar-brand image CSS
+- Remove navbar-brand padding for firefox bug workaround
+- add 100% height and width auto ... similar to how bootstrap img-responsive class works
+***********************************/
+
+.navbar-brand {
+  padding: 0px;
+}
+.navbar-brand>img {
+  height: 100%;
+  width: auto;
+}
+
+.example3 .navbar-brand {
+  height: 80px;
+}
+
+.example3 .nav >li >a {
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+.example3 .navbar-toggle {
+  padding: 10px;
+  margin: 25px 15px 25px 0;
+}
+
+/* CSS Transform Align Navbar Brand Text ... This could also be achieved with table / table-cells */
+.navbar-alignit .navbar-header {
+	  -webkit-transform-style: preserve-3d;
+  transform-style: preserve-3d;
+  height: 50px;
+}
+.navbar-alignit .navbar-brand {
+	top: 50%;
+	display: block;
+	position: relative;
+	height: auto;
+	-webkit-transform: translate(0,-50%);
+	        transform: translate(0,-50%);
+	margin-right: 15px;
+  margin-left: 15px;
+}
+
+.navbar-nav>li>.dropdown-menu {
+	z-index: 9999;
+}
+
+body {
+  font-family: "Lato";
+}
+/* This changes the timing of the gallery in CSS */
+
+.carousel-inner>.item {
+    -webkit-transition: -webkit-transform 1.2s ease-in-out !important;
+    -o-transition: -o-transform 0.4s ease-in-out !important;
+    transition: transform 0.4s ease-in-out !important;
+}
+
+
+/* Footer */
+.full {
+
+  width: 100%; 
+ 
+
+}
+
+
+
+.footer2 {
+
+              height: 100%;
+
+              padding-bottom: 10px;
+
+              position: relative;
+
+              width: 100%;
+
+  color:#fff;
+
+              border-bottom: 1px solid #CCCCCC;
+
+              border-top: 1px solid #DDDDDD;
+
+  background: #00003E;
+
+  background: -webkit-linear-gradient(to right, #31BDE6, #00003E); 
+
+  background: linear-gradient(to right, #31BDE6, #00003E);    
+
+}
+
+
+
+
+
+.footer2 h3 {
+
+              border-bottom: 1px solid #BAC1C8;
+
+  color:#fff;
+
+              font-size: 18px;
+
+              font-weight: 600;
+
+              line-height: 27px;
+
+              padding: 40px 0 10px;
+
+              text-transform: uppercase;
+
+}
+
+.footer2 ul {
+
+              font-size: 13px;
+
+              list-style-type: none;
+
+              margin-left: 0;
+
+              padding-left: 0;
+
+              margin-top: 15px;
+
+              color: #7F8C8D;
+
+}
+
+.footer2 ul li a {
+
+              padding: 0 0 5px 0;
+
+              display: block;
+
+}
+
+.footer2 a {
+
+              color: #78828D;
+
+  color:#fff;
+
+}
+
+.supportLi h4 {
+
+              font-size: 20px;
+
+              font-weight: lighter;
+
+              line-height: normal;
+
+              margin-bottom: 0 !important;
+
+              padding-bottom: 0;
+
+}
+
+
+
+.subscribe-btn .btn {
+
+              border: medium none;
+
+              border-radius: 4px;
+
+              display: inline-block;
+
+              height: 40px;
+
+              padding: 0;
+
+              width: 100%;
+
+              color: #fff;
+
+  margin-top:10px;
+
+}
+
+.subscribe-btn {
+
+              overflow: hidden;
+
+}
+
+
+
+#social li {
+
+              border: 2px solid #B5B5B5;
+
+              -webkit-border-radius: 50%;
+
+              -moz-border-radius: 50%;
+
+              -o-border-radius: 50%;
+
+              -ms-border-radius: 50%;
+
+              border-radius: 50%;
+
+              float: left;
+
+              height: 36px;
+
+              line-height: 36px;
+
+              margin: 0 8px 0 0;
+
+              padding: 0;
+
+              text-align: center;
+
+              width: 36px;
+
+              transition: all 0.5s ease 0s;
+
+              -moz-transition: all 0.5s ease 0s;
+
+              -webkit-transition: all 0.5s ease 0s;
+
+              -ms-transition: all 0.5s ease 0s;
+
+              -o-transition: all 0.5s ease 0s;
+
+}
+
+
+
+#social li a {
+
+              color: #00adef;
+
+}
+
+#social li:hover {
+
+              border: 2px solid #FFC72C;
+
+              background: #FFC72C;
+
+}
+
+#social li a i {
+
+              font-size: 16px;
+
+              margin: 0 0 0 5px;
+
+              color: #000000 !important;
+
+}
+
+.footer-bottom {
+
+  background: #40E0D0;
+
+  background: -webkit-linear-gradient(to right, #FF0080, #FF8C00, #40E0D0);
+
+  background: linear-gradient(to right, #FF0080, #FF8C00, #40E0D0);
+
+              border-top: 1px solid #DDDDDD;
+
+              padding-top: 20px;
+
+              padding-bottom: 0px;
+
+  color:#fff;
+
+}
+
+.footer-bottom p.pull-left {
+
+              padding-top: 6px;
+
+}
+
+#foot {
+font-family: "proxima-nova", sans-serif;
+  color: 	#FFFAF0 !important;
+  -webkit-font-smoothing: antialiased;
+  margin-bottom: 8px;
+font-weight: 600;
+  font-size:180%;
+ }
+ 
+ #foot2 {
+font-family: "proxima-nova", sans-serif;
+  color: 	#FFFAF0 !important;
+  -webkit-font-smoothing: antialiased;
+  margin-bottom: 8px;
+font-weight: 600;
+  font-size:145%;
+ }
+
+.address span , .menu span{
+ color: #FFFAF0; 
+ font-weight: bold; 
+ border-bottom: 1px solid #c7c7c7; 
+font-weight: 600;
+ display: inline-block;
+ text-transform: uppercase;
+ font-size: 16px;
+ letter-spacing: 3px;
+ font-family: "proxima-nova", sans-serif;
+}
+
+.address li a , .menu li a{
+  color:#FFFAF0;
+  font-weight: 600;
+  text-decoration:none;
+  font-size:14px;
+font-family: "proxima-nova", sans-serif;
+}
+
+.address li, .menu li{
+  margin:10px 0px;
+  list-style: none;
+
+}
+
+.address li a:hover , .menu li a:hover{
+  color: #000000 !important;
+  -webkit-transition: all 1s ease-in-out;
+  -moz-transition: all 1s ease-in-out;
+  -o-transition: all 1s ease-in-out;
+  transition: all 1s ease-in-out;
+font-weight: 600;
+}
+
+
+.address .fa{
+  color: #B3B3B3 ;
+  margin-right: 10px;
+  font-size:18px;
+font-weight: 600;
+}
+/* Footer */
+
+/* This references CSS which makes the video fit the size of the page, previosuly there was a wide gap between the navbar and the video, but by incorporating this CSS design code I was able to remove that gap and make it look good.*/
+.video {
+  background: url(images/video/ad.mp4);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-origin: content-box;
+    padding-top: -100%;
+  padding-bottom: -100%;
+  margin-top: -1%;
+  background-clip: content-box;
+}
+
+
+.video1 {
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-origin: content-box;
+   margin-top: -1%;
+}
+#video1 { 
+  
+  padding-top: 5%;
+  padding-bottom: 40%;
+  padding-left: 5%;
+  padding-right:40%;
+  margin-top: -1%;
+  background-color: rgba(230, 230, 230, 0.8);
+  color: rgb(0,45,114);
+  background-clip: content-box;
+  text-align: center;
+
+} 
+
+
+/* Code used in the Finance page and contact us page for the tabs. */
+section {
+  display: none;
+  padding: 20px 0 0;
+  border-top: 1px solid #abc;
+}
+
+input {
+  display: none;
+}
+
+label {
+  display: inline-block;
+  margin: 0 0 -1px;
+  padding: 15px 25px;
+  font-weight: 600;
+  text-align: center;
+  color: #abc;
+  border: 1px solid transparent;
+}
+
+label:before {
+  font-family: fontawesome;
+  font-weight: normal;
+  margin-right: 10px;
+}
+
+
+label:hover {
+  color: #789;
+  cursor: pointer;
+}
+
+input:checked + label {
+  color: #0af;
+  border: 1px solid #abc;
+  border-top: 2px solid #0af;
+  border-bottom: 1px solid #fff;
+}
+
+#tab1:checked ~ #content1,
+#tab2:checked ~ #content2,
+#tab3:checked ~ #content3,
+#tab4:checked ~ #content4 {
+  display: block;
+}
+
+@media screen and (max-width: 800px) {
+  label {
+    font-size: 0;
+  }
+  label:before {
+    margin: 0;
+    font-size: 18px;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  label {
+    padding: 15px;
+  }
+}
+
+.input_val {
+  border:none;
+  background:#e5e5e5;
+}
+.values {
+  margin-bottom:50px;
+  border:1px solid #000;
+  width:180px;
+}
+/* End of Tabs section */
+
+

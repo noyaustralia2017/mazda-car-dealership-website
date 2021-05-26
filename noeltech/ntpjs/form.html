@@ -1,0 +1,82 @@
+<html lang="en" >
+<head>
+ <meta name="viewport" content="width=device-width, initial-scale=1">
+   <meta name="description" content="Contact us at Slaven Mazda Canberra">
+  <meta name="author" content="NoelTech">
+
+
+<!-- Font Awesome -->
+<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css">
+<!-- Bootstrap core CSS -->
+<link href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.3.1/css/bootstrap.min.css" rel="stylesheet">
+<!-- Material Design Bootstrap -->
+<link href="https://cdnjs.cloudflare.com/ajax/libs/mdbootstrap/4.8.2/css/mdb.min.css" rel="stylesheet">
+
+<!-- JQuery -->
+<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+<!-- Bootstrap tooltips -->
+<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.4/umd/popper.min.js"></script>
+<!-- Bootstrap core JavaScript -->
+<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.3.1/js/bootstrap.min.js"></script>
+<!-- MDB core JavaScript -->
+<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/mdbootstrap/4.8.2/js/mdb.min.js"></script>
+
+<script> <!-- This script creates a popup that alerts user when they press submit on the contact us button -->
+function myFunction() {
+  alert("Your message has been submitted");
+}
+</script>
+
+<style>
+#container4 {
+  width: 100%;
+  padding: 10%;
+  padding-top: 0.1%;
+  background-color:rgba(170,170,170);  
+  opacity: 1;	
+  
+  } 
+  </style>
+</head>
+<body>
+<!-- Default form contact taken from Dreaamweaver Bootstrap Snippets -->
+<form class="text-center border border-light p-5" id="container4">
+
+
+    <!-- Name -->
+    <input type="text" id="defaultContactFormName" class="form-control mb-4" placeholder="Name">
+
+    <!-- Email -->
+    <input type="email" id="defaultContactFormEmail" class="form-control mb-4" placeholder="E-mail">
+    <input type="email" id="defaultContactFormEmail" class="form-control mb-4" placeholder="Mobile">
+
+    <!-- Subject -->
+    <label>Subject</label>
+    <select class="browser-default custom-select mb-4">
+        <option value=""  selected disabled>Type of Enquiry</option>
+        <option value="1" >Service</option>
+        <option value="2">Sales</option>
+        <option value="3">Parts</option>
+        <option value="4">Finance</option>
+		 <option value="5">General</option>
+		 <option value="6">Feedback</option>
+
+    </select>
+
+    <!-- Message -->
+    <div class="form-group">
+        <textarea class="form-control rounded-0" id="exampleFormControlTextarea2" rows="3" placeholder="Message"></textarea>
+    </div>
+
+    <!-- Copy -->
+    <div class="custom-control custom-checkbox mb-4">
+        <input type="checkbox" class="custom-control-input" id="defaultContactFormCopy">
+        <label class="custom-control-label" for="defaultContactFormCopy">Send me a copy of this message</label>
+    </div>
+
+    <!-- Send button -->
+    <button class="btn btn-info btn-block" onclick="myFunction()"type="submit">Send</button>
+
+</form>
+<!-- Default form contact -->
+</body>
